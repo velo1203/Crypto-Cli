@@ -1,6 +1,6 @@
 {
     "name": "@devho/crypto-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "가상화폐 실시간 가격을 알려주는 CLI",
     "main": "index.js",
     "bin": {
