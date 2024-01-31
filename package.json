@@ -1,16 +1,22 @@
 {
-  "name": "crypto-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.6.7",
-    "commander": "^11.1.0"
-  }
+    "name": "@devho/crypto-cli",
+    "version": "1.0.0",
+    "description": "가상화폐 실시간 가격을 알려주는 CLI",
+    "main": "index.js",
+    "bin": {
+        "crypto": "./index.js"
+    },
+    "keywords": [
+        "crypto",
+        "currency",
+        "cli",
+        "upbit",
+        "ticker"
+    ],
+    "author": "devho (Hosung)",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.7",
+        "commander": "^11.1.0"
+    }
 }
